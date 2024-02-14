@@ -60,6 +60,10 @@ app.listen(port, () =>
   console.log("server connected Successfully on port :", port)
 );
 
+app.get("/", (req,res)=>{
+      res.send("testing")
+})
+
 // Route;
 const FamilyMemeber = require("./Route/FamilyMemberRoute");
 const FriendsCards = require("./Route/cardRoute");
