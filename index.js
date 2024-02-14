@@ -60,7 +60,7 @@ app.listen(port, () =>
   console.log("server connected Successfully on port :", port)
 );
 
-app.get("/", (req,res)=>{
+app.get("/api/v1", (req,res)=>{
       res.send("testing")
 })
 
